@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VVr17/nodejs-hw1.git"
+  },
+  "author": "VIRA VORONOVA <vera.voronova@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VVr17/nodejs-hw1/issues"
+  },
+  "homepage": "https://github.com/VVr17/nodejs-hw1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "uid": "^2.0.1"
+  }
+}
